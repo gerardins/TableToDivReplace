@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Responsive Tables</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="style.css" type="text/css" media="all">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+</head>
+<body>
+<header><a href="#"><h1>Transforme un tableau en plusieurs Divs avec Jquery</h1></a></header>
+<article>
+
+    <table id="table" >
+        <thead>
+			<tr>
+				<td>Id</td>
+				<td>Nom</td>
+				<td>Prenom</td>
+				<td>Age</td>
+				<td>Profession</td>
+				<td>Contact</td>
+			<tr>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td>Konjoh</td>
+            <td>Elvis</td>
+            <td>22</td>
+            <td>Web designer</td>
+            <td>1234567890</td>
+		</tr>
+        <tr>
+            <td>2</td>
+            <td>Danielle</td>
+            <td>Prenom Da</td>
+            <td>22</td>
+            <td>Web developer</td>
+            <td>2475454501</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Test</td>
+            <td>Test Prenom</td>
+            <td>25</td>
+            <td>Editor</td>
+            <td>34564545452</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Autre</td>
+            <td>Autre Prenom</td>
+            <td>32</td>
+            <td>User Interface</td>
+            <td>44545123</td>
+        </tr>
+    </table>
+	
+	<table>
+		<thead>
+			<tr>
+				<td>Id</td>
+				<td>Nom</td>
+				<td>Prenom</td>
+				<td>Age</td>
+				<td>Profession</td>
+				<td>Contact</td>
+			<tr>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td>Konjoh</td>
+            <td>Elvis</td>
+            <td>22</td>
+            <td>Web designer</td>
+            <td>1234567890</td>
+		</tr>
+        <tr>
+            <td>2</td>
+            <td>Danielle</td>
+            <td>Prenom Da</td>
+            <td>22</td>
+            <td>Web developer</td>
+            <td>2475454501</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Test</td>
+            <td>Test Prenom</td>
+            <td>25</td>
+            <td>Editor</td>
+            <td>34564545452</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Autre</td>
+            <td>Autre Prenom</td>
+            <td>32</td>
+            <td>User Interface</td>
+            <td>44545123</td>
+        </tr>
+    </table>
+</article>
+<footer><a href="#"><h1>Transforme un tableau en plusieurs Divs avec Jquery</h1></a></footer>
+<script src="TableToDivReplace.js">	</script>
+<script>
+	$("table#table").TableToDivReplace();
+</script>
+</body>
+</html>
