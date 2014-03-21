@@ -3,7 +3,7 @@
 	Website:	http://selabielvis.blogspot.com/2014/03/transformer-un-tableau-en-plusieurs-div.html?view=sidebar
 	
 */
-	@import url(css/reset.css);		/* Resets html elements */
+	@import url(reset.css);		/* Resets html elements */
 	@import url(http://fonts.googleapis.com/css?family=Josefin+Slab); /* Installs a webfont ----->		font-family: 'Josefin Slab', serif; */
 body{
 	font-family:Georgia, "Times New Roman", Times, serif;
